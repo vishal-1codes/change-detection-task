@@ -1,0 +1,7 @@
+<h3>Child Component (OnPush Change Detection)</h3>
+<p>Parent Data: {{ data.value }}</p>
+<p>Child Data: {{ childData }}</p>
+<button (click)="updateChildData()">Update Child Data</button>
+<hr>
+<h3>Child Component Data: {{ globalService.data }}</h3>
+<button (click)="globalService.increment()">Increment in Child</button>
